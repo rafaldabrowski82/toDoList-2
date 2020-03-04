@@ -2,9 +2,9 @@ import React from 'react';
 import '../styles/Main.css';
 
 const Main = (props) => {
-    // let tasks = props.listOfTasks.filter(item => item.active === true);
+    let tasks = props.listOfTasks.filter(item => item.active === true);
 
-    const tasks = props.listOfTasks.map(item => (
+    tasks = tasks.map(item => (
         <li key={item.id}
             className={item.priority ? "priority" : null}>
             {item.task} <span>=> do{item.date}</span>
