@@ -1,0 +1,33 @@
+.header {
+    grid-area: header;
+    border: 1px solid gray;
+}
+
+.header h1 {
+    margin: 50px 0 30px;
+    font-size: 2rem;
+    color: #080080;
+}
+
+.header input {
+    margin-bottom: 20px;
+}
+
+.header input:nth-child(2) {
+    width: 400px;
+}
+
+.header input:last-child {
+    margin-left: 10px;
+}
+
+.header button {
+    margin: 20px 0;
+    line-height: 2rem;
+    padding: 5px 40px;
+    border: 2px solid red;
+}
+
+.header button:hover {
+    border: 2px solid green;
+}

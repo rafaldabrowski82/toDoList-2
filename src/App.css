@@ -2,32 +2,9 @@
   margin: 0 auto;
   min-width: 400px;
   max-width: 800px;
-  min-height: 100vh;
   display: grid;
   grid-template-areas: 'header header' 'main main' 'section section';
   text-align: center;
-}
-
-.header {
-  grid-area: header;
-  border: 1px solid gray;
-}
-
-.header h1 {
-  margin-top: 50px;
-  color: #080080;
-}
-
-.header input {
-  margin-bottom: 20px;
-}
-
-.header input:nth-child(2) {
-  width: 400px;
-}
-
-.header input:last-child {
-  margin-left: 10px;
 }
 
 .main {
